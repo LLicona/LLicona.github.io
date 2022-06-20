@@ -7,16 +7,13 @@
         id: "id",
         dataType: tableau.dataTypeEnum.string
         }, {
-            id: "mag",
+            id: "year",
             alias: "magnitude",
-            dataType: tableau.dataTypeEnum.float
+            dataType: tableau.dataTypeEnum.string
         }, {
             id: "title",
             alias: "title",
             dataType: tableau.dataTypeEnum.string
-        }, {
-            id: "location",
-            dataType: tableau.dataTypeEnum.geometry
         }];
 
         var tableSchema = {
